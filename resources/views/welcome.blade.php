@@ -2,7 +2,7 @@
     <script>
         window.addEventListener('load', function() {
             document.querySelector('#linkHome').classList.add('active')
-            
+
         });
     </script>
     <header class="container-fluid">
