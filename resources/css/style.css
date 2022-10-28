@@ -1,0 +1,104 @@
+*{
+    font-family: 'DM Mono', monospace;
+}
+
+.active > a{
+    color:white !important;
+}
+
+.nav-link, .nav-link:link, .nav-link:visited, .nav-link:focus, .nav-link:active{
+    color:rgb(203, 203, 203);
+}
+
+.sticky-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: 0.8s;
+}
+
+.sticky-wrapper.scrolled {
+    position: fixed;
+    top: 0px;
+    max-width: 100%;
+}
+
+#navbarWrapper {
+    z-index: 9999;
+}
+
+.box{
+   
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    align-items: center;
+    transition: all 1s;
+}
+
+.box img:hover{
+    transform: scale(1.02);
+}
+
+.myBackground{
+    background-image: url('/public/images/index/targhetta-5.webp');
+    width: 100%;
+    height: 100%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.vh-50{
+    height: 60vh;
+}
+
+.bg-Container-CB{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bgCB{
+    background-image: url('/public/images/index/chiara-cubo.webp');
+    width: 100%;
+    height: 100%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+
+}
+
+@media (max-width: 978px) {
+    * {
+      padding:0;
+      margin:0;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .coverTubo {
+        height: 60vh;
+    }
+  }
+
+.coverTubo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+margin: 0 auto;
+  }

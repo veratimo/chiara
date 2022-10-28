@@ -1,0 +1,4 @@
+@import"bootstrap/dist/css/bootstrap";
+@import"./style";
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400&display=swap');

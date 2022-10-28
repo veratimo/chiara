@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PublicController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [PublicController::class, 'welcome'])->name('welcome');
+Route::get('/about', [PublicController::class, 'about'])->name('about');
+Route::get('/contact', [PublicController::class, 'contact'])->name('contact');
+
+Route::get('/in-sicure-stabilita', [PublicController::class, 'insicureStabilita'])->name('insicureStabilita');
+Route::get('/il-tubo', [PublicController::class, 'ilTubo'])->name('ilTubo');
+Route::get('/il-cubo', [PublicController::class, 'ilCubo'])->name('ilCubo');
+Route::get('/inside-the-outside', [PublicController::class, 'insideTheOutside'])->name('insideTheOutside');
+Route::get('/the-belly', [PublicController::class, 'theBelly'])->name('theBelly');
+Route::get('/the-sign', [PublicController::class, 'theSign'])->name('theSign');
+Route::get('/mirrors', [PublicController::class, 'mirrors'])->name('mirrors');
+
+Route::get('/lateralmente', [PublicController::class, 'lateralmente'])->name('lateralmente');
+
