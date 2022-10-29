@@ -6,17 +6,17 @@
         });
     </script>
     <header class="container-fluid">
-        <div class="container">
-            <div class="row vh-100 pb-3 align-items-center align-content-center align-content-lg-center">
+        <div class="container pt-3 mt-3">
+            <div class="row vh-100 pt-3 justify-content-center align-items-center">
                 <div class="col-12 col-lg-4 order-2 order-lg-1 text-center text-lg-start">
-                    <h1 class="display-4 fw-semibold">Lateralmente</h1>
+                    <h1 class="fw-semibold">Lateralmente</h1>
                     <p class="my-3">/la·te·ral·mén·te/</p>
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start">
                         <p class="mb-0 fw-semibold">avverbio</p>
                     </div>
                     <p class="my-3"> Di lato, di fianco.</p>
                 </div>
-                <div class="col-12 col-lg-8 order-1 order-lg-2 pe-0">
+                <div class="col-12 col-lg-8 order-1 order-lg-2 pe-0 align-content-end justify-content-end">
                     <img class="img-fluid coverIndex" src="./images/index/braccio-guanto.webp" alt="">
                 </div>
             </div>

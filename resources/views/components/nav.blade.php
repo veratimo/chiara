@@ -1,7 +1,7 @@
 <div id="navbarWrapper" class="container sticky-wrapper">
     <nav class="navbar navbar-dark bg-dark p-3 navbar-expand-lg ">
         <div class="container">
-            <a class="navbar-brand" href="{{route('welcome')}}"><img src="images/logo-white.png" alt="" height="40px" width="auto"></a>
+            <a class="navbar-brand" href="{{route('welcome')}}"><img src="images/logo-white.png" alt="" height="30px" width="auto"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>

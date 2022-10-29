@@ -5,10 +5,10 @@
             
         });
     </script>
-    <div class="container pt-5 mt-5">
+    <div class="container pt-5 mt-4">
         <div class="row justify-content-between">
             <div class="col-12">
-                <div class="container vh-50">
+                <div class="container vh-50 align-item-top">
                     <div class="bgCB"></div>
                 </div>
             </div>
@@ -30,7 +30,7 @@
                     Instagram
                 </a></p>
         </div>
-        <div class="col-12 col-lg-6 text-center text-lg-start px-4 mx-4 font-monospace">
+        <div class="col-10 col-lg-6 text-center text-lg-start font-monospace pt-2 mt-2">
             <p>Laureata a Firenze in industrial and interior design, Chiara Bonetti ha scelto un percorso decisamente più libero e artistico di quello che aveva prefigurato a vent'anni.
                 Dopo un'istruzione tecnica sulla gestione geometrica dello spazio, ha deciso di sfruttare le sue conoscenze per ribaltare la percezione del proprio fondamento, i sensi.
 
