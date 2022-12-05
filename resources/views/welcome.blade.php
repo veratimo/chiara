@@ -6,7 +6,7 @@
         });
     </script>
     <header class="container-fluid">
-        <div class="container">
+        <div class="container p-0">
             <div class="row vh-100 justify-content-center align-items-center">
                 <div class="col-12 col-lg-4 order-2 order-lg-1 text-center text-lg-start">
                     <h1 class="fw-semibold">Lateralmente</h1>

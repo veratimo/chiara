@@ -1,5 +1,5 @@
 <div id="navbarWrapper" class="container sticky-wrapper">
-    <nav class="navbar navbar-dark bg-dark p-3 navbar-expand-lg ">
+    <nav class="navbar navbar-dark bg-dark py-3 navbar-expand-lg ">
         <div class="container">
             <a class="navbar-brand" href="{{route('welcome')}}"><img src="images/logo-white.png" alt="" height="30px" width="auto"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
@@ -11,16 +11,16 @@
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <ul id="myNav" class="navbar-nav justify-content-end flex-grow-1 pe-0">
+                    <ul id="myNav" class="navbar-nav justify-content-end flex-grow-1 px-0">
                         <li class="nav-item">
                             <a id="linkHome" class="nav-link" href="{{route('welcome')}}">Home</a>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropbtn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Work
                             </a>
-                            <ul class="dropdown-menu dropdown-menu-dark">
+                            <ul class="dropdown-content dropdown-menu-dark">
                                 <li><a class="dropdown-item text-reset" href="{{route('ilTubo')}}">Il tubo</a></li>
                                 <li>
                                     <hr class="dropdown-divider">

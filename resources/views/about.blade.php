@@ -24,7 +24,7 @@
         <div class="col-12 col-lg-5 text-center text-lg-start">
             <h5 class="my-3 fw-semibold">Contact</h5>
             <div class="d-flex align-items-center justify-content-center justify-content-lg-start">
-                <p class="mb-0 fw-semibold text-decoration-underline">chiara.bonetti2@gmail.com</p>
+                <p class="mb-0 fw-semibold text-decoration-underline">chiara.bonetti250@gmail.com</p>
             </div>
             <p class="mt-1 pt-1"><a class="text-dark" href="https://instagram.com/cbartdistrict?igshid=YmMyMTA2M2Y=" target="_blank">
                     Instagram

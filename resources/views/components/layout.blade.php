@@ -8,7 +8,7 @@
 
       
     </head>
-    <body class="container">
+    <body class="container p-0">
         <x-nav></x-nav>
         <div class="min-vh-100">
             {{$slot}}
